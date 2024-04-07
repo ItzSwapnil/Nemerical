@@ -1,0 +1,7 @@
+# ninja log v5
+4	76	7342138328907716	CMakeFiles/sum_of_2_matrix.dir/sum_of_2_matrix.c.obj	3e8034935f54a99c
+76	158	7342138329689932	sum_of_2_matrix.exe	7a64cab00dd01a27
+2	75	7342141348237567	CMakeFiles/sub_of_2_matrix.dir/sub_of_2_matrix.c.obj	e1ab13c53d200e84
+75	156	7342141349007544	sub_of_2_matrix.exe	90a6f8883d7c9e88
+79	165	7342149755435383	Bisection_method.exe	d838ec75c92f4159
+2	78	7342149754601897	CMakeFiles/Bisection_method.dir/Bisection_method.c.obj	c3a664cc90c3cae5

@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Numerical",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Bisection_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Bisection_method-Debug-8205bf6f315767bb4a3a.json",
+					"name" : "Bisection_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Newtons_Backward_Interpolation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Newtons_Backward_Interpolation-Debug-99b438adefd3a006f19e.json",
+					"name" : "Newtons_Backward_Interpolation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Newtons_Forward_Interpolation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Newtons_Forward_Interpolation-Debug-f78cdf7d73db6c149a41.json",
+					"name" : "Newtons_Forward_Interpolation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Numerical::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Numerical-Debug-3e4cad063ab42dc263c0.json",
+					"name" : "Numerical",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sub_of_2_matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sub_of_2_matrix-Debug-ebf0f5bff0bbd27f6751.json",
+					"name" : "sub_of_2_matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_of_2_matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_of_2_matrix-Debug-5276267abc0b82de5751.json",
+					"name" : "sum_of_2_matrix",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug",
+		"source" : "C:/Users/Swapnil/CLionProjects/Numerical"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
