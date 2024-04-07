@@ -38,9 +38,32 @@ void main(){
     printf("For the value of x(%f) the value of y is %0.4f",f,d);
 
 
-
-
 }
 
 
+/*
+        Output:
+Enter the elements of x
+10
 
+15
+
+20
+
+25
+
+Enter the elements of y
+1
+
+3
+
+8
+
+7
+
+Please enter the value of x for which you want to print y:18
+
+For the value of x(18.000000) the value of y is 6.2160
+Process finished with exit code 54
+
+*/

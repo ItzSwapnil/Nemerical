@@ -59,10 +59,43 @@ void main()
     float sum = y[n - 1][0];
     float u = (value - x[n - 1]) / (x[1] - x[0]);
     for (int i = 1; i < n; i++) {
-        sum = sum + (u_cal(u, i) * y[n - 1][i]) /
-                                    fact(i);
+        sum = sum + (u_cal(u, i) * y[n - 1][i]) / fact(i);
     }
 
     printf("Value at %0.4f is %0.4f\n",value,sum);
 
 }
+
+/*
+Please Enter the number of values:4
+
+Please enter the values of x:
+123
+
+456
+
+789
+
+963
+
+Please enter the values of y:
+21
+
+54
+
+87
+
+96
+
+Displaying the backward difference table.....
+
+123.00          21.00
+456.00          54.00           33.00
+789.00          87.00           33.00           0.00
+963.00          96.00           9.00            -24.00          -24.00
+Please enter the value of f
+687
+
+Value at 687.0000 is 90.9076
+
+*/
