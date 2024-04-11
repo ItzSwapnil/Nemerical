@@ -1,14 +1,14 @@
 # ninja log v5
 4	76	7342138328907716	CMakeFiles/sum_of_2_matrix.dir/sum_of_2_matrix.c.obj	3e8034935f54a99c
-79	165	7342149755435383	Bisection_method.exe	d838ec75c92f4159
-75	156	7342141349007544	sub_of_2_matrix.exe	90a6f8883d7c9e88
-2	75	7342141348237567	CMakeFiles/sub_of_2_matrix.dir/sub_of_2_matrix.c.obj	e1ab13c53d200e84
-76	158	7342138329689932	sum_of_2_matrix.exe	7a64cab00dd01a27
-2	78	7342149754601897	CMakeFiles/Bisection_method.dir/Bisection_method.c.obj	c3a664cc90c3cae5
-1	203	7342255006817832	build.ninja	a9daa9146ea2ea1f
-1	64	7342255007686438	CMakeFiles/Newtons_Forward_Interpolation.dir/Newtons_Forward_Interpolation.c.obj	99ffe9669bb61b48
-64	140	7342255008404180	Newtons_Forward_Interpolation.exe	114c27b1e8ae5a7b
-2	69	7342257315637689	CMakeFiles/Newtons_Backward_Interpolation.dir/Newtons_Backward_Interpolation.c.obj	99a5c21eef9b4dd6
-69	136	7342257316274049	Newtons_Backward_Interpolation.exe	c3dcf6f88507efce
-5	76	7342260450915288	CMakeFiles/Newtons_Backward_Interpolation.dir/Newtons_Backward_Interpolation.c.obj	99a5c21eef9b4dd6
 76	147	7342260451583144	Newtons_Backward_Interpolation.exe	c3dcf6f88507efce
+79	165	7342149755435383	Bisection_method.exe	d838ec75c92f4159
+2	75	7342141348237567	CMakeFiles/sub_of_2_matrix.dir/sub_of_2_matrix.c.obj	e1ab13c53d200e84
+75	156	7342141349007544	sub_of_2_matrix.exe	90a6f8883d7c9e88
+76	158	7342138329689932	sum_of_2_matrix.exe	7a64cab00dd01a27
+1	64	7342255007686438	CMakeFiles/Newtons_Forward_Interpolation.dir/Newtons_Forward_Interpolation.c.obj	99ffe9669bb61b48
+2	78	7342149754601897	CMakeFiles/Bisection_method.dir/Bisection_method.c.obj	c3a664cc90c3cae5
+1	203	7345437436655974	build.ninja	a9daa9146ea2ea1f
+64	140	7342255008404180	Newtons_Forward_Interpolation.exe	114c27b1e8ae5a7b
+5	76	7342260450915288	CMakeFiles/Newtons_Backward_Interpolation.dir/Newtons_Backward_Interpolation.c.obj	99a5c21eef9b4dd6
+4	69	7345435459740462	CMakeFiles/Lagrange_Interpolation.dir/Lagrange_Interpolation.c.obj	b9f6680dad3d7765
+70	141	7345435460420896	Lagrange_Interpolation.exe	fef78049652561c7

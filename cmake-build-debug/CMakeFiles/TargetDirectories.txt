@@ -1,8 +1,6 @@
-C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Numerical.dir
-C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/sum_of_2_matrix.dir
-C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/sub_of_2_matrix.dir
 C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Bisection_method.dir
 C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Newtons_Forward_Interpolation.dir
 C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Newtons_Backward_Interpolation.dir
+C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Lagrange_Interpolation.dir
 C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -41,105 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Numerical
-
-
-#############################################
-# Order-only phony target for Numerical
-
-build cmake_object_order_depends_target_Numerical: phony || CMakeFiles/Numerical.dir
-
-build CMakeFiles/Numerical.dir/main.c.obj: C_COMPILER__Numerical_unscanned_Debug C$:/Users/Swapnil/CLionProjects/Numerical/main.c || cmake_object_order_depends_target_Numerical
-  DEP_FILE = CMakeFiles\Numerical.dir\main.c.obj.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Numerical.dir
-  OBJECT_FILE_DIR = CMakeFiles\Numerical.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Numerical
-
-
-#############################################
-# Link the executable Numerical.exe
-
-build Numerical.exe: C_EXECUTABLE_LINKER__Numerical_Debug CMakeFiles/Numerical.dir/main.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Numerical.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Numerical.exe
-  TARGET_IMPLIB = libNumerical.dll.a
-  TARGET_PDB = Numerical.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target sum_of_2_matrix
-
-
-#############################################
-# Order-only phony target for sum_of_2_matrix
-
-build cmake_object_order_depends_target_sum_of_2_matrix: phony || CMakeFiles/sum_of_2_matrix.dir
-
-build CMakeFiles/sum_of_2_matrix.dir/sum_of_2_matrix.c.obj: C_COMPILER__sum_of_2_matrix_unscanned_Debug C$:/Users/Swapnil/CLionProjects/Numerical/sum_of_2_matrix.c || cmake_object_order_depends_target_sum_of_2_matrix
-  DEP_FILE = CMakeFiles\sum_of_2_matrix.dir\sum_of_2_matrix.c.obj.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\sum_of_2_matrix.dir
-  OBJECT_FILE_DIR = CMakeFiles\sum_of_2_matrix.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target sum_of_2_matrix
-
-
-#############################################
-# Link the executable sum_of_2_matrix.exe
-
-build sum_of_2_matrix.exe: C_EXECUTABLE_LINKER__sum_of_2_matrix_Debug CMakeFiles/sum_of_2_matrix.dir/sum_of_2_matrix.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\sum_of_2_matrix.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = sum_of_2_matrix.exe
-  TARGET_IMPLIB = libsum_of_2_matrix.dll.a
-  TARGET_PDB = sum_of_2_matrix.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target sub_of_2_matrix
-
-
-#############################################
-# Order-only phony target for sub_of_2_matrix
-
-build cmake_object_order_depends_target_sub_of_2_matrix: phony || CMakeFiles/sub_of_2_matrix.dir
-
-build CMakeFiles/sub_of_2_matrix.dir/sub_of_2_matrix.c.obj: C_COMPILER__sub_of_2_matrix_unscanned_Debug C$:/Users/Swapnil/CLionProjects/Numerical/sub_of_2_matrix.c || cmake_object_order_depends_target_sub_of_2_matrix
-  DEP_FILE = CMakeFiles\sub_of_2_matrix.dir\sub_of_2_matrix.c.obj.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\sub_of_2_matrix.dir
-  OBJECT_FILE_DIR = CMakeFiles\sub_of_2_matrix.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target sub_of_2_matrix
-
-
-#############################################
-# Link the executable sub_of_2_matrix.exe
-
-build sub_of_2_matrix.exe: C_EXECUTABLE_LINKER__sub_of_2_matrix_Debug CMakeFiles/sub_of_2_matrix.dir/sub_of_2_matrix.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\sub_of_2_matrix.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = sub_of_2_matrix.exe
-  TARGET_IMPLIB = libsub_of_2_matrix.dll.a
-  TARGET_PDB = sub_of_2_matrix.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target Bisection_method
 
 
@@ -238,6 +139,39 @@ build Newtons_Backward_Interpolation.exe: C_EXECUTABLE_LINKER__Newtons_Backward_
   TARGET_IMPLIB = libNewtons_Backward_Interpolation.dll.a
   TARGET_PDB = Newtons_Backward_Interpolation.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Lagrange_Interpolation
+
+
+#############################################
+# Order-only phony target for Lagrange_Interpolation
+
+build cmake_object_order_depends_target_Lagrange_Interpolation: phony || CMakeFiles/Lagrange_Interpolation.dir
+
+build CMakeFiles/Lagrange_Interpolation.dir/Lagrange_Interpolation.c.obj: C_COMPILER__Lagrange_Interpolation_unscanned_Debug C$:/Users/Swapnil/CLionProjects/Numerical/Lagrange_Interpolation.c || cmake_object_order_depends_target_Lagrange_Interpolation
+  DEP_FILE = CMakeFiles\Lagrange_Interpolation.dir\Lagrange_Interpolation.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Lagrange_Interpolation.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lagrange_Interpolation.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Lagrange_Interpolation
+
+
+#############################################
+# Link the executable Lagrange_Interpolation.exe
+
+build Lagrange_Interpolation.exe: C_EXECUTABLE_LINKER__Lagrange_Interpolation_Debug CMakeFiles/Lagrange_Interpolation.dir/Lagrange_Interpolation.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Lagrange_Interpolation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Lagrange_Interpolation.exe
+  TARGET_IMPLIB = libLagrange_Interpolation.dll.a
+  TARGET_PDB = Lagrange_Interpolation.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -266,15 +200,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Bisection_method: phony Bisection_method.exe
 
+build Lagrange_Interpolation: phony Lagrange_Interpolation.exe
+
 build Newtons_Backward_Interpolation: phony Newtons_Backward_Interpolation.exe
 
 build Newtons_Forward_Interpolation: phony Newtons_Forward_Interpolation.exe
-
-build Numerical: phony Numerical.exe
-
-build sub_of_2_matrix: phony sub_of_2_matrix.exe
-
-build sum_of_2_matrix: phony sum_of_2_matrix.exe
 
 # =============================================================================
 # Folder targets.
@@ -284,7 +214,7 @@ build sum_of_2_matrix: phony sum_of_2_matrix.exe
 #############################################
 # Folder: C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug
 
-build all: phony Numerical.exe sum_of_2_matrix.exe sub_of_2_matrix.exe Bisection_method.exe Newtons_Forward_Interpolation.exe Newtons_Backward_Interpolation.exe
+build all: phony Bisection_method.exe Newtons_Forward_Interpolation.exe Newtons_Backward_Interpolation.exe Lagrange_Interpolation.exe
 
 # =============================================================================
 # Built-in targets
