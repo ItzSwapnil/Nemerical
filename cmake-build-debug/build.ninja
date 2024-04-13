@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug/
+cmake_ninja_workdir = E$:/Projects/CLionProjects/Numerical/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Bisection_method
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debu
 
 build cmake_object_order_depends_target_Bisection_method: phony || CMakeFiles/Bisection_method.dir
 
-build CMakeFiles/Bisection_method.dir/Bisection_method.c.obj: C_COMPILER__Bisection_method_unscanned_Debug C$:/Users/Swapnil/CLionProjects/Numerical/Bisection_method.c || cmake_object_order_depends_target_Bisection_method
+build CMakeFiles/Bisection_method.dir/Bisection_method.c.obj: C_COMPILER__Bisection_method_unscanned_Debug E$:/Projects/CLionProjects/Numerical/Bisection_method.c || cmake_object_order_depends_target_Bisection_method
   DEP_FILE = CMakeFiles\Bisection_method.dir\Bisection_method.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Bisection_method.dir
@@ -82,7 +82,7 @@ build Bisection_method.exe: C_EXECUTABLE_LINKER__Bisection_method_Debug CMakeFil
 
 build cmake_object_order_depends_target_Newtons_Forward_Interpolation: phony || CMakeFiles/Newtons_Forward_Interpolation.dir
 
-build CMakeFiles/Newtons_Forward_Interpolation.dir/Newtons_Forward_Interpolation.c.obj: C_COMPILER__Newtons_Forward_Interpolation_unscanned_Debug C$:/Users/Swapnil/CLionProjects/Numerical/Newtons_Forward_Interpolation.c || cmake_object_order_depends_target_Newtons_Forward_Interpolation
+build CMakeFiles/Newtons_Forward_Interpolation.dir/Newtons_Forward_Interpolation.c.obj: C_COMPILER__Newtons_Forward_Interpolation_unscanned_Debug E$:/Projects/CLionProjects/Numerical/Newtons_Forward_Interpolation.c || cmake_object_order_depends_target_Newtons_Forward_Interpolation
   DEP_FILE = CMakeFiles\Newtons_Forward_Interpolation.dir\Newtons_Forward_Interpolation.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Newtons_Forward_Interpolation.dir
@@ -115,7 +115,7 @@ build Newtons_Forward_Interpolation.exe: C_EXECUTABLE_LINKER__Newtons_Forward_In
 
 build cmake_object_order_depends_target_Newtons_Backward_Interpolation: phony || CMakeFiles/Newtons_Backward_Interpolation.dir
 
-build CMakeFiles/Newtons_Backward_Interpolation.dir/Newtons_Backward_Interpolation.c.obj: C_COMPILER__Newtons_Backward_Interpolation_unscanned_Debug C$:/Users/Swapnil/CLionProjects/Numerical/Newtons_Backward_Interpolation.c || cmake_object_order_depends_target_Newtons_Backward_Interpolation
+build CMakeFiles/Newtons_Backward_Interpolation.dir/Newtons_Backward_Interpolation.c.obj: C_COMPILER__Newtons_Backward_Interpolation_unscanned_Debug E$:/Projects/CLionProjects/Numerical/Newtons_Backward_Interpolation.c || cmake_object_order_depends_target_Newtons_Backward_Interpolation
   DEP_FILE = CMakeFiles\Newtons_Backward_Interpolation.dir\Newtons_Backward_Interpolation.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Newtons_Backward_Interpolation.dir
@@ -148,7 +148,7 @@ build Newtons_Backward_Interpolation.exe: C_EXECUTABLE_LINKER__Newtons_Backward_
 
 build cmake_object_order_depends_target_Lagrange_Interpolation: phony || CMakeFiles/Lagrange_Interpolation.dir
 
-build CMakeFiles/Lagrange_Interpolation.dir/Lagrange_Interpolation.c.obj: C_COMPILER__Lagrange_Interpolation_unscanned_Debug C$:/Users/Swapnil/CLionProjects/Numerical/Lagrange_Interpolation.c || cmake_object_order_depends_target_Lagrange_Interpolation
+build CMakeFiles/Lagrange_Interpolation.dir/Lagrange_Interpolation.c.obj: C_COMPILER__Lagrange_Interpolation_unscanned_Debug E$:/Projects/CLionProjects/Numerical/Lagrange_Interpolation.c || cmake_object_order_depends_target_Lagrange_Interpolation
   DEP_FILE = CMakeFiles\Lagrange_Interpolation.dir\Lagrange_Interpolation.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Lagrange_Interpolation.dir
@@ -172,12 +172,144 @@ build Lagrange_Interpolation.exe: C_EXECUTABLE_LINKER__Lagrange_Interpolation_De
   TARGET_IMPLIB = libLagrange_Interpolation.dll.a
   TARGET_PDB = Lagrange_Interpolation.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Addition_of_2_matrix
+
+
+#############################################
+# Order-only phony target for Addition_of_2_matrix
+
+build cmake_object_order_depends_target_Addition_of_2_matrix: phony || CMakeFiles/Addition_of_2_matrix.dir
+
+build CMakeFiles/Addition_of_2_matrix.dir/Addition_of_2_matrix.c.obj: C_COMPILER__Addition_of_2_matrix_unscanned_Debug E$:/Projects/CLionProjects/Numerical/Addition_of_2_matrix.c || cmake_object_order_depends_target_Addition_of_2_matrix
+  DEP_FILE = CMakeFiles\Addition_of_2_matrix.dir\Addition_of_2_matrix.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Addition_of_2_matrix.dir
+  OBJECT_FILE_DIR = CMakeFiles\Addition_of_2_matrix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Addition_of_2_matrix
+
+
+#############################################
+# Link the executable Addition_of_2_matrix.exe
+
+build Addition_of_2_matrix.exe: C_EXECUTABLE_LINKER__Addition_of_2_matrix_Debug CMakeFiles/Addition_of_2_matrix.dir/Addition_of_2_matrix.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Addition_of_2_matrix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Addition_of_2_matrix.exe
+  TARGET_IMPLIB = libAddition_of_2_matrix.dll.a
+  TARGET_PDB = Addition_of_2_matrix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SubtractMatrix_of_2_matrix
+
+
+#############################################
+# Order-only phony target for SubtractMatrix_of_2_matrix
+
+build cmake_object_order_depends_target_SubtractMatrix_of_2_matrix: phony || CMakeFiles/SubtractMatrix_of_2_matrix.dir
+
+build CMakeFiles/SubtractMatrix_of_2_matrix.dir/SubtractMatrix_of_2_matrix_.c.obj: C_COMPILER__SubtractMatrix_of_2_matrix_unscanned_Debug E$:/Projects/CLionProjects/Numerical/SubtractMatrix_of_2_matrix$ .c || cmake_object_order_depends_target_SubtractMatrix_of_2_matrix
+  DEP_FILE = CMakeFiles\SubtractMatrix_of_2_matrix.dir\SubtractMatrix_of_2_matrix_.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SubtractMatrix_of_2_matrix.dir
+  OBJECT_FILE_DIR = CMakeFiles\SubtractMatrix_of_2_matrix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SubtractMatrix_of_2_matrix
+
+
+#############################################
+# Link the executable SubtractMatrix_of_2_matrix.exe
+
+build SubtractMatrix_of_2_matrix.exe: C_EXECUTABLE_LINKER__SubtractMatrix_of_2_matrix_Debug CMakeFiles/SubtractMatrix_of_2_matrix.dir/SubtractMatrix_of_2_matrix_.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SubtractMatrix_of_2_matrix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SubtractMatrix_of_2_matrix.exe
+  TARGET_IMPLIB = libSubtractMatrix_of_2_matrix.dll.a
+  TARGET_PDB = SubtractMatrix_of_2_matrix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Multiplication_of_2_matrix
+
+
+#############################################
+# Order-only phony target for Multiplication_of_2_matrix
+
+build cmake_object_order_depends_target_Multiplication_of_2_matrix: phony || CMakeFiles/Multiplication_of_2_matrix.dir
+
+build CMakeFiles/Multiplication_of_2_matrix.dir/Multiplication_of_2_matrix.c.obj: C_COMPILER__Multiplication_of_2_matrix_unscanned_Debug E$:/Projects/CLionProjects/Numerical/Multiplication_of_2_matrix.c || cmake_object_order_depends_target_Multiplication_of_2_matrix
+  DEP_FILE = CMakeFiles\Multiplication_of_2_matrix.dir\Multiplication_of_2_matrix.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Multiplication_of_2_matrix.dir
+  OBJECT_FILE_DIR = CMakeFiles\Multiplication_of_2_matrix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Multiplication_of_2_matrix
+
+
+#############################################
+# Link the executable Multiplication_of_2_matrix.exe
+
+build Multiplication_of_2_matrix.exe: C_EXECUTABLE_LINKER__Multiplication_of_2_matrix_Debug CMakeFiles/Multiplication_of_2_matrix.dir/Multiplication_of_2_matrix.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Multiplication_of_2_matrix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Multiplication_of_2_matrix.exe
+  TARGET_IMPLIB = libMultiplication_of_2_matrix.dll.a
+  TARGET_PDB = Multiplication_of_2_matrix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Transpose_of_a_matrix
+
+
+#############################################
+# Order-only phony target for Transpose_of_a_matrix
+
+build cmake_object_order_depends_target_Transpose_of_a_matrix: phony || CMakeFiles/Transpose_of_a_matrix.dir
+
+build CMakeFiles/Transpose_of_a_matrix.dir/Transpose_of_a_matrix.c.obj: C_COMPILER__Transpose_of_a_matrix_unscanned_Debug E$:/Projects/CLionProjects/Numerical/Transpose_of_a_matrix.c || cmake_object_order_depends_target_Transpose_of_a_matrix
+  DEP_FILE = CMakeFiles\Transpose_of_a_matrix.dir\Transpose_of_a_matrix.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Transpose_of_a_matrix.dir
+  OBJECT_FILE_DIR = CMakeFiles\Transpose_of_a_matrix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Transpose_of_a_matrix
+
+
+#############################################
+# Link the executable Transpose_of_a_matrix.exe
+
+build Transpose_of_a_matrix.exe: C_EXECUTABLE_LINKER__Transpose_of_a_matrix_Debug CMakeFiles/Transpose_of_a_matrix.dir/Transpose_of_a_matrix.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Transpose_of_a_matrix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Transpose_of_a_matrix.exe
+  TARGET_IMPLIB = libTranspose_of_a_matrix.dll.a
+  TARGET_PDB = Transpose_of_a_matrix.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Swapnil\CLionProjects\Numerical\cmake-build-debug && "E:\Programs\JetBrains\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Projects\CLionProjects\Numerical\cmake-build-debug && "E:\Programs\JetBrains\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -188,7 +320,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Swapnil\CLionProjects\Numerical\cmake-build-debug && "E:\Programs\JetBrains\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Swapnil\CLionProjects\Numerical -BC:\Users\Swapnil\CLionProjects\Numerical\cmake-build-debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Projects\CLionProjects\Numerical\cmake-build-debug && "E:\Programs\JetBrains\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\Projects\CLionProjects\Numerical -BE:\Projects\CLionProjects\Numerical\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -198,13 +330,21 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Addition_of_2_matrix: phony Addition_of_2_matrix.exe
+
 build Bisection_method: phony Bisection_method.exe
 
 build Lagrange_Interpolation: phony Lagrange_Interpolation.exe
 
+build Multiplication_of_2_matrix: phony Multiplication_of_2_matrix.exe
+
 build Newtons_Backward_Interpolation: phony Newtons_Backward_Interpolation.exe
 
 build Newtons_Forward_Interpolation: phony Newtons_Forward_Interpolation.exe
+
+build SubtractMatrix_of_2_matrix: phony SubtractMatrix_of_2_matrix.exe
+
+build Transpose_of_a_matrix: phony Transpose_of_a_matrix.exe
 
 # =============================================================================
 # Folder targets.
@@ -212,9 +352,9 @@ build Newtons_Forward_Interpolation: phony Newtons_Forward_Interpolation.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug
+# Folder: E:/Projects/CLionProjects/Numerical/cmake-build-debug
 
-build all: phony Bisection_method.exe Newtons_Forward_Interpolation.exe Newtons_Backward_Interpolation.exe Lagrange_Interpolation.exe
+build all: phony Bisection_method.exe Newtons_Forward_Interpolation.exe Newtons_Backward_Interpolation.exe Lagrange_Interpolation.exe Addition_of_2_matrix.exe SubtractMatrix_of_2_matrix.exe Multiplication_of_2_matrix.exe Transpose_of_a_matrix.exe
 
 # =============================================================================
 # Built-in targets
@@ -223,14 +363,14 @@ build all: phony Bisection_method.exe Newtons_Forward_Interpolation.exe Newtons_
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/Swapnil/CLionProjects/Numerical/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake E$:/Projects/CLionProjects/Numerical/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/Swapnil/CLionProjects/Numerical/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake E$:/Programs/JetBrains/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake E$:/Projects/CLionProjects/Numerical/CMakeLists.txt: phony
 
 
 #############################################

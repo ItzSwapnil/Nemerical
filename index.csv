@@ -1,5 +1,9 @@
 SN,Name,Date
-1,Bisection Method,
-2,Newton's Forwards Interpolation'
-3,Newton's Backwards Interpolation'
-4,Lagrange Interpolation,
+1,Addition of 2 matrix,26/02/24
+2,Subtraction of 2 matrix,26/02/24
+3,Multiplication of 2 matrix,04/03/24
+4,Transformation of 2 matrix,04/03/24
+5,Bisection Method,11/03/24
+6,Newton's Forwards Interpolation,18/03/24
+7,Newton's Backwards Interpolation,18/03/24
+8,Lagrange Interpolation,

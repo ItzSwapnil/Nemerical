@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug"
+			"value" : "e:/Projects/CLionProjects/Numerical/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Swapnil/CLionProjects/Numerical"
+			"value" : "E:/Projects/CLionProjects/Numerical"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1135,7 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug"
+			"value" : "E:/Projects/CLionProjects/Numerical/cmake-build-debug"
 		},
 		{
 			"name" : "Numerical_IS_TOP_LEVEL",
@@ -1159,7 +1159,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Swapnil/CLionProjects/Numerical"
+			"value" : "E:/Projects/CLionProjects/Numerical"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

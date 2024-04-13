@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Swapnil/CLionProjects/Numerical
+# Install script for directory: E:/Projects/CLionProjects/Numerical
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Projects/CLionProjects/Numerical/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

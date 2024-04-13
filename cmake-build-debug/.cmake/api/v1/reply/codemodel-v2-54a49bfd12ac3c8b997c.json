@@ -18,7 +18,11 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -36,12 +40,23 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5,
+						6,
+						7
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Addition_of_2_matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Addition_of_2_matrix-Debug-469ee9fd5d6e04544870.json",
+					"name" : "Addition_of_2_matrix",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Bisection_method::@6890427a1f51a3e7e1df",
@@ -58,6 +73,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Multiplication_of_2_matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Multiplication_of_2_matrix-Debug-020b9055e7a42184b42c.json",
+					"name" : "Multiplication_of_2_matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Newtons_Backward_Interpolation::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Newtons_Backward_Interpolation-Debug-b97f5752ab6c840e5f44.json",
 					"name" : "Newtons_Backward_Interpolation",
@@ -69,6 +91,20 @@
 					"jsonFile" : "target-Newtons_Forward_Interpolation-Debug-9296ab3ef1a40475c241.json",
 					"name" : "Newtons_Forward_Interpolation",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SubtractMatrix_of_2_matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SubtractMatrix_of_2_matrix-Debug-f0fa95056d08eada486c.json",
+					"name" : "SubtractMatrix_of_2_matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Transpose_of_a_matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Transpose_of_a_matrix-Debug-f286cb6f32f2fa39269f.json",
+					"name" : "Transpose_of_a_matrix",
+					"projectIndex" : 0
 				}
 			]
 		}
@@ -76,8 +112,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Swapnil/CLionProjects/Numerical/cmake-build-debug",
-		"source" : "C:/Users/Swapnil/CLionProjects/Numerical"
+		"build" : "E:/Projects/CLionProjects/Numerical/cmake-build-debug",
+		"source" : "E:/Projects/CLionProjects/Numerical"
 	},
 	"version" : 
 	{
