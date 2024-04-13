@@ -1,5 +1,5 @@
 //
-// AddMatrix_of_2_matrix
+// Addition of 2 matrix
 //
 #include <stdio.h>
 

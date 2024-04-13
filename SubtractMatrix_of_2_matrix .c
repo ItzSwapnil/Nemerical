@@ -1,5 +1,5 @@
 //
-// SubtractMatrix_of_2_matrix
+// Subtraction of 2 matrix
 //
 #include <stdio.h>
 

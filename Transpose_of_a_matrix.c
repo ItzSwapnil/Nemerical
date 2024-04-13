@@ -1,5 +1,5 @@
 //
-// TransposeMatrix_of_a_matrix
+// Transpose of a matrix
 //
 #include <stdio.h>
 

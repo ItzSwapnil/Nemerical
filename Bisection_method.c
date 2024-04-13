@@ -1,5 +1,5 @@
 //
-//Bisection method
+// Bisection method
 //
 
 #include <stdio.h>

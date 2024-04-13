@@ -6,5 +6,6 @@ E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Addition_of_2_m
 E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/SubtractMatrix_of_2_matrix.dir
 E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Multiplication_of_2_matrix.dir
 E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Transpose_of_a_matrix.dir
+E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Inverse_of_a_matrix.dir
 E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/rebuild_cache.dir

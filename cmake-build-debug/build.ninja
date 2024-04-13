@@ -304,6 +304,39 @@ build Transpose_of_a_matrix.exe: C_EXECUTABLE_LINKER__Transpose_of_a_matrix_Debu
   TARGET_IMPLIB = libTranspose_of_a_matrix.dll.a
   TARGET_PDB = Transpose_of_a_matrix.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Inverse_of_a_matrix
+
+
+#############################################
+# Order-only phony target for Inverse_of_a_matrix
+
+build cmake_object_order_depends_target_Inverse_of_a_matrix: phony || CMakeFiles/Inverse_of_a_matrix.dir
+
+build CMakeFiles/Inverse_of_a_matrix.dir/Inverse_of_a_matrix.c.obj: C_COMPILER__Inverse_of_a_matrix_unscanned_Debug E$:/Projects/CLionProjects/Numerical/Inverse_of_a_matrix.c || cmake_object_order_depends_target_Inverse_of_a_matrix
+  DEP_FILE = CMakeFiles\Inverse_of_a_matrix.dir\Inverse_of_a_matrix.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Inverse_of_a_matrix.dir
+  OBJECT_FILE_DIR = CMakeFiles\Inverse_of_a_matrix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Inverse_of_a_matrix
+
+
+#############################################
+# Link the executable Inverse_of_a_matrix.exe
+
+build Inverse_of_a_matrix.exe: C_EXECUTABLE_LINKER__Inverse_of_a_matrix_Debug CMakeFiles/Inverse_of_a_matrix.dir/Inverse_of_a_matrix.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Inverse_of_a_matrix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Inverse_of_a_matrix.exe
+  TARGET_IMPLIB = libInverse_of_a_matrix.dll.a
+  TARGET_PDB = Inverse_of_a_matrix.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -334,6 +367,8 @@ build Addition_of_2_matrix: phony Addition_of_2_matrix.exe
 
 build Bisection_method: phony Bisection_method.exe
 
+build Inverse_of_a_matrix: phony Inverse_of_a_matrix.exe
+
 build Lagrange_Interpolation: phony Lagrange_Interpolation.exe
 
 build Multiplication_of_2_matrix: phony Multiplication_of_2_matrix.exe
@@ -354,7 +389,7 @@ build Transpose_of_a_matrix: phony Transpose_of_a_matrix.exe
 #############################################
 # Folder: E:/Projects/CLionProjects/Numerical/cmake-build-debug
 
-build all: phony Bisection_method.exe Newtons_Forward_Interpolation.exe Newtons_Backward_Interpolation.exe Lagrange_Interpolation.exe Addition_of_2_matrix.exe SubtractMatrix_of_2_matrix.exe Multiplication_of_2_matrix.exe Transpose_of_a_matrix.exe
+build all: phony Bisection_method.exe Newtons_Forward_Interpolation.exe Newtons_Backward_Interpolation.exe Lagrange_Interpolation.exe Addition_of_2_matrix.exe SubtractMatrix_of_2_matrix.exe Multiplication_of_2_matrix.exe Transpose_of_a_matrix.exe Inverse_of_a_matrix.exe
 
 # =============================================================================
 # Built-in targets

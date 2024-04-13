@@ -1,5 +1,5 @@
 //
-// MultiplyMatrix_of_2_matrix
+// Multiplication of 2 matrix
 //
 #include <stdio.h>
 
