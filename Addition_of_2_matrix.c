@@ -1,5 +1,5 @@
 //
-// Addition of 2 matrix
+// Addition of 2 matrix.
 //
 #include <stdio.h>
 
