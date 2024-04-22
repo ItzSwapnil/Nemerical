@@ -70,3 +70,29 @@ int main() {
 
     return 0;
 }
+
+/*
+Output:
+Enter the number of values:5
+
+Enter the values of x:
+40 50  60  70  80
+
+Enter the values of y:
+31  73  124  159  190
+
+ Newton's Forward Differences Table:
+40.00           31.00
+50.00           73.00           42.00
+60.00           124.00          51.00           9.00
+70.00           159.00          35.00           -16.00          -25.00
+80.00           190.00          31.00           -4.00           12.00           37.00
+
+ Newton's Backward Differences Table:
+40.00           31.00
+50.00           73.00           42.00
+60.00           124.00          51.00           9.00
+70.00           159.00          35.00           -16.00          -25.00
+80.00           190.00          31.00           -4.00           12.00           37.00
+
+*/
