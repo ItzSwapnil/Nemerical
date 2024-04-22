@@ -7,4 +7,5 @@ SN,Name,Date
 6,Bisection Method,11/03/24
 7,Newton's Forwards Interpolation,18/03/24
 8,Newton's Backwards Interpolation,18/03/24
-9,Lagrange Interpolation,
+9,Newton's Difference,22/04/24
+,Lagrange Interpolation,

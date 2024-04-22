@@ -206,39 +206,6 @@ build Addition_of_2_matrix.exe: C_EXECUTABLE_LINKER__Addition_of_2_matrix_Debug 
   TARGET_PDB = Addition_of_2_matrix.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target SubtractMatrix_of_2_matrix
-
-
-#############################################
-# Order-only phony target for SubtractMatrix_of_2_matrix
-
-build cmake_object_order_depends_target_SubtractMatrix_of_2_matrix: phony || CMakeFiles/SubtractMatrix_of_2_matrix.dir
-
-build CMakeFiles/SubtractMatrix_of_2_matrix.dir/SubtractMatrix_of_2_matrix_.c.obj: C_COMPILER__SubtractMatrix_of_2_matrix_unscanned_Debug E$:/Projects/CLionProjects/Numerical/SubtractMatrix_of_2_matrix$ .c || cmake_object_order_depends_target_SubtractMatrix_of_2_matrix
-  DEP_FILE = CMakeFiles\SubtractMatrix_of_2_matrix.dir\SubtractMatrix_of_2_matrix_.c.obj.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\SubtractMatrix_of_2_matrix.dir
-  OBJECT_FILE_DIR = CMakeFiles\SubtractMatrix_of_2_matrix.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target SubtractMatrix_of_2_matrix
-
-
-#############################################
-# Link the executable SubtractMatrix_of_2_matrix.exe
-
-build SubtractMatrix_of_2_matrix.exe: C_EXECUTABLE_LINKER__SubtractMatrix_of_2_matrix_Debug CMakeFiles/SubtractMatrix_of_2_matrix.dir/SubtractMatrix_of_2_matrix_.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\SubtractMatrix_of_2_matrix.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = SubtractMatrix_of_2_matrix.exe
-  TARGET_IMPLIB = libSubtractMatrix_of_2_matrix.dll.a
-  TARGET_PDB = SubtractMatrix_of_2_matrix.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target Multiplication_of_2_matrix
 
 
@@ -337,6 +304,39 @@ build Inverse_of_a_matrix.exe: C_EXECUTABLE_LINKER__Inverse_of_a_matrix_Debug CM
   TARGET_IMPLIB = libInverse_of_a_matrix.dll.a
   TARGET_PDB = Inverse_of_a_matrix.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Newtons_Difference
+
+
+#############################################
+# Order-only phony target for Newtons_Difference
+
+build cmake_object_order_depends_target_Newtons_Difference: phony || CMakeFiles/Newtons_Difference.dir
+
+build CMakeFiles/Newtons_Difference.dir/Newtons_Difference.c.obj: C_COMPILER__Newtons_Difference_unscanned_Debug E$:/Projects/CLionProjects/Numerical/Newtons_Difference.c || cmake_object_order_depends_target_Newtons_Difference
+  DEP_FILE = CMakeFiles\Newtons_Difference.dir\Newtons_Difference.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Newtons_Difference.dir
+  OBJECT_FILE_DIR = CMakeFiles\Newtons_Difference.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Newtons_Difference
+
+
+#############################################
+# Link the executable Newtons_Difference.exe
+
+build Newtons_Difference.exe: C_EXECUTABLE_LINKER__Newtons_Difference_Debug CMakeFiles/Newtons_Difference.dir/Newtons_Difference.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Newtons_Difference.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Newtons_Difference.exe
+  TARGET_IMPLIB = libNewtons_Difference.dll.a
+  TARGET_PDB = Newtons_Difference.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -375,9 +375,9 @@ build Multiplication_of_2_matrix: phony Multiplication_of_2_matrix.exe
 
 build Newtons_Backward_Interpolation: phony Newtons_Backward_Interpolation.exe
 
-build Newtons_Forward_Interpolation: phony Newtons_Forward_Interpolation.exe
+build Newtons_Difference: phony Newtons_Difference.exe
 
-build SubtractMatrix_of_2_matrix: phony SubtractMatrix_of_2_matrix.exe
+build Newtons_Forward_Interpolation: phony Newtons_Forward_Interpolation.exe
 
 build Transpose_of_a_matrix: phony Transpose_of_a_matrix.exe
 
@@ -389,7 +389,7 @@ build Transpose_of_a_matrix: phony Transpose_of_a_matrix.exe
 #############################################
 # Folder: E:/Projects/CLionProjects/Numerical/cmake-build-debug
 
-build all: phony Bisection_method.exe Newtons_Forward_Interpolation.exe Newtons_Backward_Interpolation.exe Lagrange_Interpolation.exe Addition_of_2_matrix.exe SubtractMatrix_of_2_matrix.exe Multiplication_of_2_matrix.exe Transpose_of_a_matrix.exe Inverse_of_a_matrix.exe
+build all: phony Bisection_method.exe Newtons_Forward_Interpolation.exe Newtons_Backward_Interpolation.exe Lagrange_Interpolation.exe Addition_of_2_matrix.exe Multiplication_of_2_matrix.exe Transpose_of_a_matrix.exe Inverse_of_a_matrix.exe Newtons_Difference.exe
 
 # =============================================================================
 # Built-in targets
