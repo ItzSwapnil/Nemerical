@@ -1,3 +1,7 @@
+//
+//Newtons Forwards and Backwards Difference
+//
+
 #include <stdio.h>
 #include <math.h>
 
