@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Numerical",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Addition_of_2_matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Addition_of_2_matrix-Debug-73616cdd3a3113e61c9a.json",
+					"name" : "Addition_of_2_matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Bisection_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Bisection_method-Debug-b19214427cd8eac5cc12.json",
+					"name" : "Bisection_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Inverse_of_a_matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Inverse_of_a_matrix-Debug-456c5c913359aa9aedda.json",
+					"name" : "Inverse_of_a_matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lagrange_Interpolation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lagrange_Interpolation-Debug-0a96ab3a33608b4ec85b.json",
+					"name" : "Lagrange_Interpolation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Multiplication_of_2_matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Multiplication_of_2_matrix-Debug-3c15e3f197c14998a621.json",
+					"name" : "Multiplication_of_2_matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Newton_Raphson::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Newton_Raphson-Debug-fa263cf30f1da899daf3.json",
+					"name" : "Newton_Raphson",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Newtons_Backward_Interpolation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Newtons_Backward_Interpolation-Debug-b97f5752ab6c840e5f44.json",
+					"name" : "Newtons_Backward_Interpolation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Newtons_Difference::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Newtons_Difference-Debug-a58b78c151cf677872a2.json",
+					"name" : "Newtons_Difference",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Newtons_Forward_Interpolation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Newtons_Forward_Interpolation-Debug-9296ab3ef1a40475c241.json",
+					"name" : "Newtons_Forward_Interpolation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Regula_Falsi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Regula_Falsi-Debug-241ace47e58f07304994.json",
+					"name" : "Regula_Falsi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Transpose_of_a_matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Transpose_of_a_matrix-Debug-6ade7aee406983d14cc2.json",
+					"name" : "Transpose_of_a_matrix",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Projects/CLionProjects/Numerical/cmake-build-debug",
+		"source" : "E:/Projects/CLionProjects/Numerical"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
