@@ -12,3 +12,6 @@ add_executable(Multiplication_of_2_matrix Multiplication_of_2_matrix.c)
 add_executable(Transpose_of_a_matrix Transpose_of_a_matrix.c)
 add_executable(Inverse_of_a_matrix Inverse_of_a_matrix.c)
 add_executable(Newtons_Difference Newtons_Difference.c)
+
+add_executable(Newton_Raphson Newton_Raphson.c)
+add_executable(Regula_Falsi Regula_Falsi.c)
