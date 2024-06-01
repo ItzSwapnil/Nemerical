@@ -7,5 +7,7 @@ E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Multiplication_
 E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Transpose_of_a_matrix.dir
 E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Inverse_of_a_matrix.dir
 E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Newtons_Difference.dir
+E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Newton_Raphson.dir
+E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/Regula_Falsi.dir
 E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Projects/CLionProjects/Numerical/cmake-build-debug/CMakeFiles/rebuild_cache.dir
